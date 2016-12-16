@@ -10,20 +10,24 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Ce plugin permet de controler les amplificateurs YAMAHA
+Ce plugin permet de controler les clef USB Blink1 (https://github.com/todbot/blink1)
 
-Pour le moment seul les commandes suivantes sont dispo:
-- monter le son
-- baisser le son
-- allumer l'ampli
-- eteindre l'ampli
+Les commandes suivantes sont supportées:
+ - allume led
+ - eteint led
+ - led bleue
+ - led verte
+ - led blanche
+ - led jaune
+ - led orange
 
 ## Usage
 ```
-You: monte le son
-Jarvis: son monté
+You: allume led
+Jarvis: led allumée
+You: regle led avec la couleur bleue
+Jarvis: led bleue
 ```
 
 ## Authors
-[Alex](https://github.com/alexylem)
 [Byackee](https://github.com/byackee)
