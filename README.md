@@ -21,6 +21,9 @@ Les commandes suivantes sont supportées:
  - led jaune
  - led orange
 
+## Installation
+Attention: le pugin est configuré pour une utilisation sur RPI, si vous voulez l'utiliser sur un system X86/64 il faut modifier le fichier commands et remplacer la valeur 'blink1-tool-armv7l' par 'blink1-tool-x86_64'
+
 ## Usage
 ```
 You: allume led
