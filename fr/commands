@@ -1,6 +1,6 @@
 *etei*la*led*== say "led eteinte" && say "$(python ./plugins/jarvis-blink1/blink1/blink1.py --off)"
 *allume led*== say "led allumée" && say "$(python ./plugins/jarvis-blink1/blink1/blink1.py --on)"
-*regle*led*couleur*bleu*== say "led reglée sur la couleur bleue" && say "$(python ./plugins/jarvis-blink1/blink1/blink1.py -c bleu)"
+*regle*led*couleur*bleu*== say "led reglée sur la couleur bleue" && say "$(python ./plugins/jarvis-blink1/ressources/blink1-tool-armv7l -t 200 -m 100 --rgb ff00ff --blink 15)"
 *regle*led*couleur*verte*== say "led reglée sur la couleur verte" && say "$(python ./plugins/jarvis-blink1/blink1/blink1.py -c green)"
 *regle*led*couleur*blanc*== say "led reglée sur la couleur blanche" && say "$(python ./plugins/jarvis-blink1/blink1/blink1.py -c white)"
 *regle*led*couleur*jaune*== say "led reglée sur la couleur jaune" && say "$(python ./plugins/jarvis-blink1/blink1/blink1.py -c yellow)"
